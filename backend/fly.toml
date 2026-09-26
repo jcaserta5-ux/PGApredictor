@@ -2,6 +2,9 @@
 app = "pga-predictor-api"
 primary_region = "iad"
 
+[build]
+  dockerfile = "Dockerfile"
+
 [env]
   FLASK_ENV = "production"
 
