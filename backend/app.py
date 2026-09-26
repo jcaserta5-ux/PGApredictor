@@ -81,7 +81,3 @@ def golfers():
 @app.get('/api/predictions')
 def predictions():
     return jsonify(build_predictions())
-
-
-if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000, debug=True)
